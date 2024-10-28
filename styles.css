@@ -1,1 +1,62 @@
 /* your code here */
+.product{
+      display: flex;
+      gap: 20px;
+      background-color: beige;
+    }
+    .photo-album ul{
+      display: flex;
+      list-style-type: none;
+      position: right;
+      background-color: white;
+    }
+    .photo-album ul li{
+      border: 1px solid rgb(209, 200, 200);
+      margin: 1px;
+      background-color: rgb(200, 190, 190);
+    }
+    .product__photo{
+      position: relative;
+      
+      box-shadow: 4px 4px 4px gray;
+      
+    }
+    .product__info{
+      position: relative;
+      margin-left: 10px;
+      box-shadow: 2px 2px 2px gray;
+    }
+    .photo-main > img{
+      background-color: rgb(37, 132, 37);
+    }
+    .title{
+      text-align: left;
+      margin: 5px;
+      font-family: 'Courier New', Courier, monospace;   
+    }
+    .title span{
+      font-size: 13px;
+    }
+    .price{
+      font-size: 25px;
+      color: red;
+    }
+    .price span{
+      font-size: 80px;
+    }
+    .variant ul{
+      display: flex;
+      list-style-type: none;
+      align-items: center;
+      background-color: white;
+      gap: 50px;
+      
+    }
+    .variant ul li{
+      width: 6px;
+      height: 60px;
+      gap: 10px;
+    }
+    .variant{
+      margin-left: -20px;
+    }
